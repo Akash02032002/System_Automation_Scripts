@@ -42,7 +42,7 @@ Follow these steps to get the project up and running on your local machine.
 ### 1. File Path
 
 The main application script is located at:
-`C:\Users	tittu\Videos\Gemini CLI\System-Automation-V2\main.py`
+`C:\Users	tittu\Videos\System-Automation-V2\main.py`
 
 ### 2. Prerequisites
 
@@ -53,7 +53,7 @@ The main application script is located at:
 
 1.  **Navigate to the project directory:**
     ```bash
-    cd "C:\Users	tittu\Videos\Gemini CLI\System-Automation-V2"
+    cd "C:\Users	tittu\Videos\System-Automation-V2"
     ```
 2.  **Install the required dependencies:**
     ```bash
@@ -77,7 +77,7 @@ python main.py
 
 You can also run the script from anywhere on your system by providing the full, absolute path:
 ```bash
-python "C:\Users	tittu\Videos\Gemini CLI\System-Automation-V2\main.py"
+python "C:\Users	tittu\Videos\System-Automation-V2\main.py"
 ```
 
 ### 5. Exporting the Report
@@ -89,13 +89,13 @@ To save the output to a JSON file, use the `--json` flag. This works with both o
 python main.py --json report.json
 
 # Example using the full path
-python "C:\Users	tittu\Videos\GeminiCLI\System-Automation-V2\main.py" --json "C:\path	to\youreport.json"
+python "C:\Users	tittu\Videos\System-Automation-V2\main.py" --json "C:\path	to\youreport.json"
 
 My Example :- 
-python "C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\main.py" --json "C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\report.json"
+python "C:\Users\tittu\Videos\System-Automation-V2\main.py" --json "C:\Users\tittu\Videos\System-Automation-V2\report.json"
 ```
 
-{ "Report successfully exported to C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\report.json" }
+{ "Report successfully exported to C:\Users\tittu\Videos\System-Automation-V2\report.json" }
 
 
 ## ⚙️ How It Works: The Checks Explained:-
