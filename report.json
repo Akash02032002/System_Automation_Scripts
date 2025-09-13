@@ -1,0 +1,43 @@
+{
+    "cpu": {
+        "cpu_percent": 2.3
+    },
+    "memory": {
+        "total": 7916912640,
+        "available": 938520576,
+        "percent": 88.1,
+        "used": 6978392064,
+        "free": 938520576
+    },
+    "disk": [
+        {
+            "device": "C:\\",
+            "mountpoint": "C:\\",
+            "total": 511244759040,
+            "used": 355477303296,
+            "free": 155767455744,
+            "percent": 69.5,
+            "is_over_threshold": false
+        }
+    ],
+    "process": {
+        "process_name": "sshd",
+        "status": "not_found"
+    },
+    "network": {
+        "ping_results": {
+            "8.8.8.8": true,
+            "1.1.1.1": true
+        },
+        "port_results": {
+            "google.com": {
+                "80": true,
+                "443": true
+            }
+        }
+    },
+    "services": {
+        "Spooler": "running",
+        "WinDefend": "running"
+    }
+}

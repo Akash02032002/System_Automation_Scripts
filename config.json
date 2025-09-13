@@ -1,0 +1,17 @@
+{
+    "disk_check": {
+        "threshold_percent": 80
+    },
+    "process_check": {
+        "process_name": "sshd"
+    },
+    "network_check": {
+        "hosts_to_ping": ["8.8.8.8", "1.1.1.1"],
+        "ports_to_check": {
+            "google.com": [80, 443]
+        }
+    },
+    "service_check": {
+        "services_to_check": ["Spooler", "WinDefend"]
+    }
+}
