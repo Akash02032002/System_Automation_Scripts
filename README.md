@@ -89,7 +89,7 @@ My Example :-
 python "C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\main.py" --json "C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\report.json"
 ```
 
-{" Report successfully exported to C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\report.json" }
+{ "Report successfully exported to C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\report.json" }
 
 
 ## ⚙️ How It Works: The Checks Explained
