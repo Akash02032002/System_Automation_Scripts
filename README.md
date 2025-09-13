@@ -11,7 +11,7 @@ This project is designed to showcase skills in automation, system monitoring, ne
 - Implemented log rotation and system health monitoring solutions
 - Technologies: PowerShell, Bash, Python, Linux, Windows Server
 
-## ✨ Features
+## ✨ Features:-
 
 - **Visually Rich Reports:** Color-coded tables in the console for easy reading and quick diagnostics.
 - **Comprehensive Health Checks:**
@@ -25,7 +25,7 @@ This project is designed to showcase skills in automation, system monitoring, ne
 - **Exportable Data:** Reports can be exported to a JSON file.
 - **Unit Tested:** The project includes a full suite of unit tests using `pytest` to ensure reliability.
 
-## 🛠️ Tools and Technologies
+## 🛠️ Tools and Technologies:-
 
 - **Language:** Python 3
 - **Core Libraries:**
@@ -35,7 +35,7 @@ This project is designed to showcase skills in automation, system monitoring, ne
   - `pytest`: As the testing framework.
   - `pytest-mock`: For simulating system calls and network responses during tests.
 
-## 🚀 Getting Started
+## 🚀 Getting Started:-
 
 Follow these steps to get the project up and running on your local machine.
 
@@ -98,7 +98,7 @@ python "C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\main.py" --json "C:
 { "Report successfully exported to C:\Users\tittu\Videos\GeminiCLI\System-Automation-V2\report.json" }
 
 
-## ⚙️ How It Works: The Checks Explained
+## ⚙️ How It Works: The Checks Explained:-
 
 The tool's logic is divided into several modules located in the `checks/` directory.
 
@@ -111,7 +111,7 @@ The tool's logic is divided into several modules located in the `checks/` direct
 | `services.py`   | Checks the status of specified system services. It uses Windows-specific functions where available and falls back to process checking on other systems. |
 | `network.py`    | Performs two key network checks: it pings specified hosts to ensure they are reachable and checks if configured TCP ports are open on target hosts. |
 
-## 🧪 Testing
+## 🧪 Testing:-
 
 A comprehensive suite of unit tests has been written to ensure the reliability of each check module. The tests use mocking to isolate the code from the live system state, making them fast and predictable.
 
