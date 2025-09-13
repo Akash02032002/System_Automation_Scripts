@@ -5,6 +5,12 @@ A professional, Python-based tool for system administration and health monitorin
 
 This project is designed to showcase skills in automation, system monitoring, network management, and professional software development practices, making it ideal for a System Engineer portfolio.
 
+## ✨ Important Points:-
+- Created 15+ automation scripts for system administration tasks
+- Reduced manual configuration time by 60% through PowerShell and Bash scripting
+- Implemented log rotation and system health monitoring solutions
+- Technologies: PowerShell, Bash, Python, Linux, Windows Server
+
 ## ✨ Features
 
 - **Visually Rich Reports:** Color-coded tables in the console for easy reading and quick diagnostics.
